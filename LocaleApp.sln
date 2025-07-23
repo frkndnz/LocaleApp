@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaleApp.Domain", "src\LocaleApp.Domain\LocaleApp.Domain.csproj", "{0771FDF8-FA9A-409F-B323-FADF617C5524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaleApp.Application", "src\LocaleApp.Application\LocaleApp.Application.csproj", "{07E4EC56-4F55-43C9-BEDC-2197E5CD81E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaleApp.Infrastructure", "src\LocaleApp.Infrastructure\LocaleApp.Infrastructure.csproj", "{67361D54-C6CF-4F13-B02E-01217F7C16E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaleApp.WebAPI", "src\LocaleApp.WebAPI\LocaleApp.WebAPI.csproj", "{81C9626B-35AE-4D95-AB2D-9E96C1C44992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaleApp.ServiceDefaults", "src\LocaleApp.ServiceDefaults\LocaleApp.ServiceDefaults.csproj", "{5B779573-96DC-4CE3-AED9-2F0F86F14562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaleApp.AppHost", "src\LocaleApp.AppHost\LocaleApp.AppHost.csproj", "{A2906770-33BA-480C-A33A-981542ED8BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0771FDF8-FA9A-409F-B323-FADF617C5524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0771FDF8-FA9A-409F-B323-FADF617C5524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0771FDF8-FA9A-409F-B323-FADF617C5524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0771FDF8-FA9A-409F-B323-FADF617C5524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E4EC56-4F55-43C9-BEDC-2197E5CD81E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E4EC56-4F55-43C9-BEDC-2197E5CD81E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E4EC56-4F55-43C9-BEDC-2197E5CD81E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E4EC56-4F55-43C9-BEDC-2197E5CD81E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67361D54-C6CF-4F13-B02E-01217F7C16E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67361D54-C6CF-4F13-B02E-01217F7C16E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67361D54-C6CF-4F13-B02E-01217F7C16E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67361D54-C6CF-4F13-B02E-01217F7C16E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C9626B-35AE-4D95-AB2D-9E96C1C44992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C9626B-35AE-4D95-AB2D-9E96C1C44992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C9626B-35AE-4D95-AB2D-9E96C1C44992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C9626B-35AE-4D95-AB2D-9E96C1C44992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B779573-96DC-4CE3-AED9-2F0F86F14562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B779573-96DC-4CE3-AED9-2F0F86F14562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B779573-96DC-4CE3-AED9-2F0F86F14562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B779573-96DC-4CE3-AED9-2F0F86F14562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2906770-33BA-480C-A33A-981542ED8BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2906770-33BA-480C-A33A-981542ED8BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2906770-33BA-480C-A33A-981542ED8BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2906770-33BA-480C-A33A-981542ED8BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0771FDF8-FA9A-409F-B323-FADF617C5524} = {4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}
+		{07E4EC56-4F55-43C9-BEDC-2197E5CD81E8} = {4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}
+		{67361D54-C6CF-4F13-B02E-01217F7C16E6} = {4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}
+		{81C9626B-35AE-4D95-AB2D-9E96C1C44992} = {4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}
+		{5B779573-96DC-4CE3-AED9-2F0F86F14562} = {4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}
+		{A2906770-33BA-480C-A33A-981542ED8BB9} = {4F06BC89-5A6F-4B6C-B4E3-F4A3F2C86051}
+	EndGlobalSection
+EndGlobal
